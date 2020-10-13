@@ -28,7 +28,7 @@ void printf2(T value, Ts... args) {
     if constexpr(sizeof...(args) > 0) printf2(args...);
 }
 
-template<auto value> void foo() {
+template<auto value> void foo() {   
     std::cout << value << std::endl;
 }
 
