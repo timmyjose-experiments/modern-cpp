@@ -1,6 +1,6 @@
 CXX := g++
 CXXFLAGS := -Wall -std=c++2a -O3
-ARTEFACTS := lambdas function_object_wrapper
+ARTEFACTS := lambdas function_object_wrapper function
 
 .PHONY: all clean
 
